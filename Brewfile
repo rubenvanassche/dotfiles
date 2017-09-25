@@ -5,10 +5,8 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
+tap 'homebrew/science'
 
-# Install ZSH
-brew 'zsh'
-brew 'zsh-completions'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -23,46 +21,64 @@ brew 'bash'
 brew 'homebrew/dupes/grep'
 
 # Install Binaries
-brew 'awscli'
 brew 'git'
-brew 'hub'
 brew 'tree'
-brew 'mackup'
-brew 'mas'
 brew 'node'
-brew 'trash'
 brew 'wget'
 
 # Development
 brew 'php71', args: ['with-debug']
 brew 'php71-intl'
 brew 'mariadb'
+brew 'hdf5'
+brew 'cmake'
+brew 'mariadb'
+brew 'python3'
+brew 'mariadb'
+brew 'qt'
+brew 'doxygen'
+brew 'ffmpeg'
+brew 'sfml'
+brew 'mariadb'
+brew 'graphviz'
+brew 'mariadb'
+brew 'go'
+brew 'maven'
+brew 'valgrind'
+brew 'clock'
+brew '--with-clang llvm'
+brew 'r'
 
 # Apps
-cask 'aerial'
-cask 'alfred'
 cask 'caffeine'
-cask 'docker'
-cask 'dropbox'
 cask 'firefox'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpgtools'
-cask 'iterm2'
-cask 'mysqlworkbench'
 cask 'phpstorm'
-cask 'quip'
+cask 'clion'
 cask 'sequel-pro'
-cask 'shuttle'
 cask 'slack'
 cask 'sublime-text'
-cask 'torbrowser'
-cask 'tower'
 cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 cask 'vlc'
+cask 'blender'
+cask 'eclipse-cpp'
+cask 'flux'
+cask 'github'
+cask 'handbrake'
+cask 'insomnia'
+cask 'logisim'
+cask 'macdown'
+cask 'vlc'
+cask 'spotify'
+cask 'opera'
+cask 'skype'
+cask 'subler'
+cask 'texmaker'
+cask 'wireshark'
+cask 'burn'
+cask 'the-unarchiver'
+cask 'xquartz'
+cask 'atom'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -70,20 +86,3 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
-
-# Fonts
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-
-# Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Gapplin', id: 768053424
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
